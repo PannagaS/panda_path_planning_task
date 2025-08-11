@@ -1,0 +1,36 @@
+[1.616s] Invoking command in '/home/pannaga/Documents/panda_path_planning_task/ros2_ws/src/panda_path_planning': PYTHONPATH=/home/pannaga/Documents/panda_path_planning_task/ros2_ws/build/panda_path_planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pannaga/Documents/panda_path_planning_task/ros2_ws/install/panda_path_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/panda_path_planning build --build-base /home/pannaga/Documents/panda_path_planning_task/ros2_ws/build/panda_path_planning/build install --record /home/pannaga/Documents/panda_path_planning_task/ros2_ws/build/panda_path_planning/install.log --single-version-externally-managed install_data
+[2.239s] running egg_info
+[2.240s] creating ../../build/panda_path_planning/panda_path_planning.egg-info
+[2.242s] writing manifest file '../../build/panda_path_planning/panda_path_planning.egg-info/SOURCES.txt'
+[2.247s] writing manifest file '../../build/panda_path_planning/panda_path_planning.egg-info/SOURCES.txt'
+[2.247s] running build
+[2.247s] running build_py
+[2.247s] creating /home/pannaga/Documents/panda_path_planning_task/ros2_ws/build/panda_path_planning/build
+[2.248s] creating /home/pannaga/Documents/panda_path_planning_task/ros2_ws/build/panda_path_planning/build/lib
+[2.248s] creating /home/pannaga/Documents/panda_path_planning_task/ros2_ws/build/panda_path_planning/build/lib/panda_path_planning
+[2.248s] copying panda_path_planning/planning_scene_demo.py -> /home/pannaga/Documents/panda_path_planning_task/ros2_ws/build/panda_path_planning/build/lib/panda_path_planning
+[2.248s] copying panda_path_planning/obstacle_publisher.py -> /home/pannaga/Documents/panda_path_planning_task/ros2_ws/build/panda_path_planning/build/lib/panda_path_planning
+[2.248s] copying panda_path_planning/__init__.py -> /home/pannaga/Documents/panda_path_planning_task/ros2_ws/build/panda_path_planning/build/lib/panda_path_planning
+[2.248s] running install
+[2.253s] running install_lib
+[2.256s] creating /home/pannaga/Documents/panda_path_planning_task/ros2_ws/install/panda_path_planning/lib/python3.10/site-packages/panda_path_planning
+[2.256s] copying /home/pannaga/Documents/panda_path_planning_task/ros2_ws/build/panda_path_planning/build/lib/panda_path_planning/planning_scene_demo.py -> /home/pannaga/Documents/panda_path_planning_task/ros2_ws/install/panda_path_planning/lib/python3.10/site-packages/panda_path_planning
+[2.256s] copying /home/pannaga/Documents/panda_path_planning_task/ros2_ws/build/panda_path_planning/build/lib/panda_path_planning/obstacle_publisher.py -> /home/pannaga/Documents/panda_path_planning_task/ros2_ws/install/panda_path_planning/lib/python3.10/site-packages/panda_path_planning
+[2.256s] copying /home/pannaga/Documents/panda_path_planning_task/ros2_ws/build/panda_path_planning/build/lib/panda_path_planning/__init__.py -> /home/pannaga/Documents/panda_path_planning_task/ros2_ws/install/panda_path_planning/lib/python3.10/site-packages/panda_path_planning
+[2.257s] byte-compiling /home/pannaga/Documents/panda_path_planning_task/ros2_ws/install/panda_path_planning/lib/python3.10/site-packages/panda_path_planning/planning_scene_demo.py to planning_scene_demo.cpython-310.pyc
+[2.259s] byte-compiling /home/pannaga/Documents/panda_path_planning_task/ros2_ws/install/panda_path_planning/lib/python3.10/site-packages/panda_path_planning/obstacle_publisher.py to obstacle_publisher.cpython-310.pyc
+[2.261s] byte-compiling /home/pannaga/Documents/panda_path_planning_task/ros2_ws/install/panda_path_planning/lib/python3.10/site-packages/panda_path_planning/__init__.py to __init__.cpython-310.pyc
+[2.261s] running install_data
+[2.262s] creating /home/pannaga/Documents/panda_path_planning_task/ros2_ws/install/panda_path_planning/share/ament_index
+[2.262s] creating /home/pannaga/Documents/panda_path_planning_task/ros2_ws/install/panda_path_planning/share/ament_index/resource_index
+[2.262s] creating /home/pannaga/Documents/panda_path_planning_task/ros2_ws/install/panda_path_planning/share/ament_index/resource_index/packages
+[2.262s] copying resource/panda_path_planning -> /home/pannaga/Documents/panda_path_planning_task/ros2_ws/install/panda_path_planning/share/ament_index/resource_index/packages
+[2.263s] copying package.xml -> /home/pannaga/Documents/panda_path_planning_task/ros2_ws/install/panda_path_planning/share/panda_path_planning
+[2.263s] creating /home/pannaga/Documents/panda_path_planning_task/ros2_ws/install/panda_path_planning/share/panda_path_planning/launch
+[2.263s] copying launch/bringup_panda_demo.launch.py -> /home/pannaga/Documents/panda_path_planning_task/ros2_ws/install/panda_path_planning/share/panda_path_planning/launch
+[2.263s] creating /home/pannaga/Documents/panda_path_planning_task/ros2_ws/install/panda_path_planning/share/panda_path_planning/config
+[2.263s] running install_egg_info
+[2.266s] Copying ../../build/panda_path_planning/panda_path_planning.egg-info to /home/pannaga/Documents/panda_path_planning_task/ros2_ws/install/panda_path_planning/lib/python3.10/site-packages/panda_path_planning-0.0.0-py3.10.egg-info
+[2.267s] running install_scripts
+[2.316s] writing list of installed files to '/home/pannaga/Documents/panda_path_planning_task/ros2_ws/build/panda_path_planning/install.log'
+[2.367s] Invoked command in '/home/pannaga/Documents/panda_path_planning_task/ros2_ws/src/panda_path_planning' returned '0': PYTHONPATH=/home/pannaga/Documents/panda_path_planning_task/ros2_ws/build/panda_path_planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pannaga/Documents/panda_path_planning_task/ros2_ws/install/panda_path_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/panda_path_planning build --build-base /home/pannaga/Documents/panda_path_planning_task/ros2_ws/build/panda_path_planning/build install --record /home/pannaga/Documents/panda_path_planning_task/ros2_ws/build/panda_path_planning/install.log --single-version-externally-managed install_data

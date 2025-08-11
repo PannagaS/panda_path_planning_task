@@ -1,0 +1,4 @@
+[console_scripts]
+obstacle_publisher = panda_path_planning.obstacle_publisher:main
+planning_scene_demo = panda_path_planning.planning_scene_demo:main
+

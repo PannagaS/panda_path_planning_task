@@ -98,10 +98,10 @@ To add the `MotionPlanning` panel and setup the scene for planning,
 
 ## Result
 The following video shows a Panda arm planning a path while there are obstacles around it.
+
+
 <p align="center">
-  <a href="https://youtu.be/Kpos1U_8N2A">
-    <img src="https://img.youtube.com/vi/Kpos1U_8N2A/0.jpg" alt="Watch on YouTube"/>
-  </a>
+    <img src="assets/Screencastfrom08-11-2025100428PM-ezgif.com-video-to-gif-converter.gif" alt="GIF"/>
 </p>
 
-
+#### You can also watch the video by [clicking here](https://youtu.be/Kpos1U_8N2A)

@@ -15,17 +15,5 @@ def generate_launch_description():
             ])
         )
     )
-    demo_node = Node(
-        package='panda_path_planning',
-        executable='planning_scene_demo',
-        output='screen'
-    )
 
-    obstacle_node = Node(
-        package='panda_path_planning',
-        executable='obstacle_publisher',
-        output='screen'
-    )
-
-
-    return LaunchDescription([panda_demo_launch, demo_node, obstacle_node])
+    return LaunchDescription([panda_demo_launch])

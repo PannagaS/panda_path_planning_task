@@ -9,9 +9,8 @@ setup.py
 ../../build/panda_path_planning/panda_path_planning.egg-info/top_level.txt
 ../../build/panda_path_planning/panda_path_planning.egg-info/zip-safe
 launch/bringup_panda_demo.launch.py
+launch/bringup_panda_demo_custom_env.launch.py
 panda_path_planning/__init__.py
-panda_path_planning/obstacle_publisher.py
-panda_path_planning/planning_scene_demo.py
 resource/panda_path_planning
 test/test_copyright.py
 test/test_flake8.py

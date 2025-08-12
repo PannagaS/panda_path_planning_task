@@ -24,8 +24,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'planning_scene_demo = panda_path_planning.planning_scene_demo:main',
-            'obstacle_publisher = panda_path_planning.obstacle_publisher:main',
+
         ],
     },
 )

@@ -7,16 +7,13 @@ running build_py
 creating /home/pannaga/Documents/panda_path_planning_task/ros2_ws/build/panda_path_planning/build
 creating /home/pannaga/Documents/panda_path_planning_task/ros2_ws/build/panda_path_planning/build/lib
 creating /home/pannaga/Documents/panda_path_planning_task/ros2_ws/build/panda_path_planning/build/lib/panda_path_planning
-copying panda_path_planning/planning_scene_demo.py -> /home/pannaga/Documents/panda_path_planning_task/ros2_ws/build/panda_path_planning/build/lib/panda_path_planning
 copying panda_path_planning/obstacle_publisher.py -> /home/pannaga/Documents/panda_path_planning_task/ros2_ws/build/panda_path_planning/build/lib/panda_path_planning
 copying panda_path_planning/__init__.py -> /home/pannaga/Documents/panda_path_planning_task/ros2_ws/build/panda_path_planning/build/lib/panda_path_planning
 running install
 running install_lib
 creating /home/pannaga/Documents/panda_path_planning_task/ros2_ws/install/panda_path_planning/lib/python3.10/site-packages/panda_path_planning
-copying /home/pannaga/Documents/panda_path_planning_task/ros2_ws/build/panda_path_planning/build/lib/panda_path_planning/planning_scene_demo.py -> /home/pannaga/Documents/panda_path_planning_task/ros2_ws/install/panda_path_planning/lib/python3.10/site-packages/panda_path_planning
 copying /home/pannaga/Documents/panda_path_planning_task/ros2_ws/build/panda_path_planning/build/lib/panda_path_planning/obstacle_publisher.py -> /home/pannaga/Documents/panda_path_planning_task/ros2_ws/install/panda_path_planning/lib/python3.10/site-packages/panda_path_planning
 copying /home/pannaga/Documents/panda_path_planning_task/ros2_ws/build/panda_path_planning/build/lib/panda_path_planning/__init__.py -> /home/pannaga/Documents/panda_path_planning_task/ros2_ws/install/panda_path_planning/lib/python3.10/site-packages/panda_path_planning
-byte-compiling /home/pannaga/Documents/panda_path_planning_task/ros2_ws/install/panda_path_planning/lib/python3.10/site-packages/panda_path_planning/planning_scene_demo.py to planning_scene_demo.cpython-310.pyc
 byte-compiling /home/pannaga/Documents/panda_path_planning_task/ros2_ws/install/panda_path_planning/lib/python3.10/site-packages/panda_path_planning/obstacle_publisher.py to obstacle_publisher.cpython-310.pyc
 byte-compiling /home/pannaga/Documents/panda_path_planning_task/ros2_ws/install/panda_path_planning/lib/python3.10/site-packages/panda_path_planning/__init__.py to __init__.cpython-310.pyc
 running install_data

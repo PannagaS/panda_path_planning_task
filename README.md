@@ -69,6 +69,8 @@ After **successfully** building the package, execute the following to source the
 source /install/setup.bash
 ```
 
+
+
 ### Running the demo
 Launch the Panda planning demo by executing the following:
 ```
@@ -93,7 +95,8 @@ To add the `MotionPlanning` panel and setup the scene for planning,
     - **Execute** the planned motion after a successful plan, by clicking `Execute` 
     - Alternatively, you can also use `Plan & Execute` button
  
-
+### A note on the robot
+The current implementation fetches `panda.urdf` from `~/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/urdf` automatically when you run the launch file as described above. This is an efficient and simpler way to leverage MoveIt's `moveit_resources_panda_description` package. 
 
 
 ## Result

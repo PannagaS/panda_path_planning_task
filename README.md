@@ -128,9 +128,9 @@ Static obstacles (e.g., a cube) are added into the planning scene using `moveit_
 The cube’s pose and dimensions are specified relative to the robot’s planning frame.
 
 
-Once MoveIt has the planning scene, it *hands off* the problem to a motion planner. In our case, that would be RRT Connect from OMPL. This is a sampling based approach where on a high level - 
+Once MoveIt has the planning scene, it then hands off the problem to a motion planner. In our case, that would be RRT Connect from OMPL. This is a sampling based approach where on a high level - 
 - The planner randomly picks a robot configuration
-- It then checks if this sampled configuration isi n collision with any objects in the planning scene or if the robot is in collision with itself
+- It then checks if this sampled configuration is in collision with any objects in the planning scene or if the robot is in collision with itself
 - If the state is **collision-free**, it's added to a `roadmap` of possible paths. The planner trieds to connect this new and valid state to nearby states that are arleady in the roadmap. The paths between these states are also checked for collisions
 - This process continues until a connection is made between robot's starting config and its goal config. The resulting series of connected states forms a collision-free path
 - Note that RRTConnect can be jerky and sometimes may lead to sub-optimal path, so MoveIt uses a post-processing step to *smooth and simplify* the trajectory, making it more fluid for the real robot to execute 

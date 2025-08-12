@@ -1,4 +1,4 @@
-# panda_path_planning_task
+# Obstacle-Aware Motion Planning for a Panda Arm 
 
 ## Objective
 This repository contains a ROS2 package for obstacle aware path planning for the Franka Emika Panda robot, using ROS2, Rviz2, and MoveIt2 for experiments.

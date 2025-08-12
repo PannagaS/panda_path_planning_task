@@ -107,8 +107,7 @@ The following video shows a Panda arm planning a path while there are obstacles 
     <img src="assets/Screencastfrom08-11-2025100428PM-ezgif.com-video-to-gif-converter.gif" alt="GIF"/>
 </p>
 
-#### You can also watch the video by [clicking here](https://youtu.be/Kpos1U_8N2A)
-
+#### You can also watch the video by by clicking here - [demo 1](https://youtu.be/Kpos1U_8N2A), [demo 2](https://youtu.be/51J_CLuVIU4)
 ## Brief Description of Path Planner Used
 The simulation uses MoveIt 2’s **Open Motion Planning Library (OMPL)** based motion planning pipeline.
 By default, the Panda MoveIt 2 configuration (`moveit_resources_panda_moveit_config`) employs the **RRTConnect planner** from the OMPL (Open Motion Planning Library).

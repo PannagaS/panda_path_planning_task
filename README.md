@@ -142,4 +142,4 @@ During the planning phase, the motion planner continuously calls a collision che
 This way, MoveIt finally outputs a time-parameteried trajectory that the robot can now follow **safely and efficiently** to reach its goal, that is **guaranteed** to be **collision-free**.
 
 ## As a side
-I am also working on integrating Isaac Sim with MoveIt2 and ROS2 to form an end-to-end pipeline that can be used for developing realistic simulation and testing pipelines. 
+I am also working on integrating `Isaac Sim` with `MoveIt 2` and `ROS 2` to form an end-to-end pipeline that can be used for developing realistic simulation and testing pipelines. 

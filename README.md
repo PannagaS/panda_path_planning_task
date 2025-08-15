@@ -142,3 +142,8 @@ This way, MoveIt finally outputs a time-parameteried trajectory that the robot c
 
 ## As a side
 I am also working on integrating `Isaac Sim` with `MoveIt 2` and `ROS 2` to form an end-to-end pipeline that can be used for developing realistic simulation and testing pipelines. 
+
+
+<p align="center">
+    <img src="assets/Screencastfrom08-15-2025104716AM-ezgif.com-video-to-gif-converter.gif" alt="GIF"/>
+</p>

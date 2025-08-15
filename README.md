@@ -142,3 +142,5 @@ This way, MoveIt finally outputs a time-parameteried trajectory that the robot c
 
 ## As a side
 I am also working on integrating `Isaac Sim` with `MoveIt 2` and `ROS 2` to form an end-to-end pipeline that can be used for developing realistic simulation and testing pipelines. 
+
+**UPDATE: Switch to `isaac_panda` branch to see visual of IsaacSim + MoveIt2 + ROS2 intergation for a panda arm.**

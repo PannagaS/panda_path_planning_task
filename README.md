@@ -107,7 +107,21 @@ The following video shows a Panda arm planning a path while there are obstacles 
     <img src="assets/Screencastfrom08-11-2025100428PM-ezgif.com-video-to-gif-converter.gif" alt="GIF"/>
 </p>
 
+
 #### You can also watch the video by by clicking here - [demo 1](https://youtu.be/Kpos1U_8N2A), [demo 2](https://youtu.be/51J_CLuVIU4)
+
+
+
+## IsaacSim + MoveIt + ROS2 integration
+The following visual demonstrates successful integration of IsaacSim with ROS2 and MoveIt2. 
+
+
+<p align="center">
+    <img src="assets/Screencastfrom08-15-2025104716AM-ezgif.com-video-to-gif-converter.gif" alt="GIF"/>
+</p>
+
+
+
 ## Brief Description of Path Planner Used
 The simulation uses MoveIt 2’s **Open Motion Planning Library (OMPL)** based motion planning pipeline.
 By default, the Panda MoveIt 2 configuration (`moveit_resources_panda_moveit_config`) employs the **RRTConnect planner** from the OMPL (Open Motion Planning Library).
@@ -139,11 +153,3 @@ For collision checking, MoveIt uses `FCL (Flexible Collision Library)` for fast 
 During the planning phase, the motion planner continuously calls a collision checker to determine if a new robot conifguration or a path segment is **valid**. This process is very fast, and allows th eplanner to quickly discard any invalid options and focuses on finding a safe route. The collision checker checks collision between robot and the environment, and also self-collisions with the robot itself.
 
 This way, MoveIt finally outputs a time-parameteried trajectory that the robot can now follow **safely and efficiently** to reach its goal, that is **guaranteed** to be **collision-free**.
-
-## As a side
-I am also working on integrating `Isaac Sim` with `MoveIt 2` and `ROS 2` to form an end-to-end pipeline that can be used for developing realistic simulation and testing pipelines. 
-
-
-<p align="center">
-    <img src="assets/Screencastfrom08-15-2025104716AM-ezgif.com-video-to-gif-converter.gif" alt="GIF"/>
-</p>

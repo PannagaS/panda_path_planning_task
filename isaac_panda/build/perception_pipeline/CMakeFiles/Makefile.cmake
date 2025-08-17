@@ -12,8 +12,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
   "ament_cmake_core/package.cmake"
   "ament_cmake_package_templates/templates.cmake"
-  "/home/pannaga/ros2_ws/isaac_moveit_perception/src/perception_pipeline/CMakeLists.txt"
-  "/home/pannaga/ros2_ws/isaac_moveit_perception/src/perception_pipeline/package.xml"
+  "/home/pannaga/Documents/panda_path_planning_task/isaac_panda/src/perception_pipeline/CMakeLists.txt"
+  "/home/pannaga/Documents/panda_path_planning_task/isaac_panda/src/perception_pipeline/package.xml"
   "/home/pannaga/ws_moveit/install/moveit_core/share/moveit_core/cmake/ConfigExtras.cmake"
   "/home/pannaga/ws_moveit/install/moveit_core/share/moveit_core/cmake/ament_cmake_export_dependencies-extras.cmake"
   "/home/pannaga/ws_moveit/install/moveit_core/share/moveit_core/cmake/ament_cmake_export_targets-extras.cmake"
@@ -1390,5 +1390,4 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/perception_pipeline_uninstall.dir/DependInfo.cmake"
-  "CMakeFiles/pick_place_with_grasp.dir/DependInfo.cmake"
   )

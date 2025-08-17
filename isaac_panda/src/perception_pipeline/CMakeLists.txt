@@ -15,9 +15,9 @@ find_package(moveit_msgs REQUIRED)
 find_package(control_msgs REQUIRED)
 find_package(moveit_ros_planning_interface REQUIRED)
 
-set(executable_list
-  pick_place_with_grasp
-)
+# set(executable_list
+#   pick_place_with_grasp
+# )
 
 foreach(loop_var IN LISTS executable_list)
   add_executable(${loop_var} src/${loop_var}.cpp)
@@ -41,14 +41,13 @@ install(
   DIRECTORY
     config
     launch
-    src
+    
   DESTINATION
     share/${PROJECT_NAME}/
 )
 
 install(
   PROGRAMS
-  launch/pick_and_place.launch.py
   launch/perception_pipeline_demo.launch.py
   DESTINATION lib/${PROJECT_NAME}
 )

@@ -54,16 +54,16 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pannaga/ros2_ws/isaac_moveit_perception/src/perception_pipeline
+CMAKE_SOURCE_DIR = /home/pannaga/Documents/panda_path_planning_task/isaac_panda/src/perception_pipeline
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pannaga/ros2_ws/isaac_moveit_perception/build/perception_pipeline
+CMAKE_BINARY_DIR = /home/pannaga/Documents/panda_path_planning_task/isaac_panda/build/perception_pipeline
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/pick_place_with_grasp.dir/all
+all:
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,7 +73,6 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/perception_pipeline_uninstall.dir/clean
-clean: CMakeFiles/pick_place_with_grasp.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -83,14 +82,14 @@ clean: CMakeFiles/pick_place_with_grasp.dir/clean
 CMakeFiles/uninstall.dir/all: CMakeFiles/perception_pipeline_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pannaga/ros2_ws/isaac_moveit_perception/build/perception_pipeline/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pannaga/Documents/panda_path_planning_task/isaac_panda/build/perception_pipeline/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pannaga/ros2_ws/isaac_moveit_perception/build/perception_pipeline/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pannaga/Documents/panda_path_planning_task/isaac_panda/build/perception_pipeline/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pannaga/ros2_ws/isaac_moveit_perception/build/perception_pipeline/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pannaga/Documents/panda_path_planning_task/isaac_panda/build/perception_pipeline/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -109,14 +108,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/perception_pipeline_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/perception_pipeline_uninstall.dir/build.make CMakeFiles/perception_pipeline_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/perception_pipeline_uninstall.dir/build.make CMakeFiles/perception_pipeline_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pannaga/ros2_ws/isaac_moveit_perception/build/perception_pipeline/CMakeFiles --progress-num= "Built target perception_pipeline_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pannaga/Documents/panda_path_planning_task/isaac_panda/build/perception_pipeline/CMakeFiles --progress-num= "Built target perception_pipeline_uninstall"
 .PHONY : CMakeFiles/perception_pipeline_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/perception_pipeline_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pannaga/ros2_ws/isaac_moveit_perception/build/perception_pipeline/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pannaga/Documents/panda_path_planning_task/isaac_panda/build/perception_pipeline/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/perception_pipeline_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pannaga/ros2_ws/isaac_moveit_perception/build/perception_pipeline/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pannaga/Documents/panda_path_planning_task/isaac_panda/build/perception_pipeline/CMakeFiles 0
 .PHONY : CMakeFiles/perception_pipeline_uninstall.dir/rule
 
 # Convenience name for target.
@@ -127,32 +126,6 @@ perception_pipeline_uninstall: CMakeFiles/perception_pipeline_uninstall.dir/rule
 CMakeFiles/perception_pipeline_uninstall.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/perception_pipeline_uninstall.dir/build.make CMakeFiles/perception_pipeline_uninstall.dir/clean
 .PHONY : CMakeFiles/perception_pipeline_uninstall.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/pick_place_with_grasp.dir
-
-# All Build rule for target.
-CMakeFiles/pick_place_with_grasp.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_place_with_grasp.dir/build.make CMakeFiles/pick_place_with_grasp.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_place_with_grasp.dir/build.make CMakeFiles/pick_place_with_grasp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pannaga/ros2_ws/isaac_moveit_perception/build/perception_pipeline/CMakeFiles --progress-num=1,2 "Built target pick_place_with_grasp"
-.PHONY : CMakeFiles/pick_place_with_grasp.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/pick_place_with_grasp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pannaga/ros2_ws/isaac_moveit_perception/build/perception_pipeline/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pick_place_with_grasp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pannaga/ros2_ws/isaac_moveit_perception/build/perception_pipeline/CMakeFiles 0
-.PHONY : CMakeFiles/pick_place_with_grasp.dir/rule
-
-# Convenience name for target.
-pick_place_with_grasp: CMakeFiles/pick_place_with_grasp.dir/rule
-.PHONY : pick_place_with_grasp
-
-# clean rule for target.
-CMakeFiles/pick_place_with_grasp.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_place_with_grasp.dir/build.make CMakeFiles/pick_place_with_grasp.dir/clean
-.PHONY : CMakeFiles/pick_place_with_grasp.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

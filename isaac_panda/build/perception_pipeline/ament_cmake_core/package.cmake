@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "perception_pipeline")
 set(perception_pipeline_VERSION "0.0.0")
-set(perception_pipeline_MAINTAINER "robotmania <robotmania@todo.todo>")
+set(perception_pipeline_MAINTAINER "robotmania <pannagasudarshan@gmail.com>")
 set(perception_pipeline_BUILD_DEPENDS )
 set(perception_pipeline_BUILDTOOL_DEPENDS "ament_cmake")
 set(perception_pipeline_BUILD_EXPORT_DEPENDS )

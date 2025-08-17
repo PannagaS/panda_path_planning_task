@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pannaga/ros2_ws/isaac_moveit_perception/src/perception_pipeline
+CMAKE_SOURCE_DIR = /home/pannaga/Documents/panda_path_planning_task/isaac_panda/src/perception_pipeline
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pannaga/ros2_ws/isaac_moveit_perception/build/perception_pipeline
+CMAKE_BINARY_DIR = /home/pannaga/Documents/panda_path_planning_task/isaac_panda/build/perception_pipeline
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pannaga/ros2_ws/isaac_moveit_perception/build/perception_pipeline/CMakeFiles /home/pannaga/ros2_ws/isaac_moveit_perception/build/perception_pipeline//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pannaga/Documents/panda_path_planning_task/isaac_panda/build/perception_pipeline/CMakeFiles /home/pannaga/Documents/panda_path_planning_task/isaac_panda/build/perception_pipeline//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pannaga/ros2_ws/isaac_moveit_perception/build/perception_pipeline/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pannaga/Documents/panda_path_planning_task/isaac_panda/build/perception_pipeline/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -197,43 +197,6 @@ perception_pipeline_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/perception_pipeline_uninstall.dir/build.make CMakeFiles/perception_pipeline_uninstall.dir/build
 .PHONY : perception_pipeline_uninstall/fast
 
-#=============================================================================
-# Target rules for targets named pick_place_with_grasp
-
-# Build rule for target.
-pick_place_with_grasp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pick_place_with_grasp
-.PHONY : pick_place_with_grasp
-
-# fast build rule for target.
-pick_place_with_grasp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_place_with_grasp.dir/build.make CMakeFiles/pick_place_with_grasp.dir/build
-.PHONY : pick_place_with_grasp/fast
-
-src/pick_place_with_grasp.o: src/pick_place_with_grasp.cpp.o
-.PHONY : src/pick_place_with_grasp.o
-
-# target to build an object file
-src/pick_place_with_grasp.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_place_with_grasp.dir/build.make CMakeFiles/pick_place_with_grasp.dir/src/pick_place_with_grasp.cpp.o
-.PHONY : src/pick_place_with_grasp.cpp.o
-
-src/pick_place_with_grasp.i: src/pick_place_with_grasp.cpp.i
-.PHONY : src/pick_place_with_grasp.i
-
-# target to preprocess a source file
-src/pick_place_with_grasp.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_place_with_grasp.dir/build.make CMakeFiles/pick_place_with_grasp.dir/src/pick_place_with_grasp.cpp.i
-.PHONY : src/pick_place_with_grasp.cpp.i
-
-src/pick_place_with_grasp.s: src/pick_place_with_grasp.cpp.s
-.PHONY : src/pick_place_with_grasp.s
-
-# target to generate assembly for a file
-src/pick_place_with_grasp.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_place_with_grasp.dir/build.make CMakeFiles/pick_place_with_grasp.dir/src/pick_place_with_grasp.cpp.s
-.PHONY : src/pick_place_with_grasp.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -249,10 +212,6 @@ help:
 	@echo "... test"
 	@echo "... perception_pipeline_uninstall"
 	@echo "... uninstall"
-	@echo "... pick_place_with_grasp"
-	@echo "... src/pick_place_with_grasp.o"
-	@echo "... src/pick_place_with_grasp.i"
-	@echo "... src/pick_place_with_grasp.s"
 .PHONY : help
 
 

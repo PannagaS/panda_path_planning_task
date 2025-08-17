@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pannaga/ros2_ws/isaac_moveit_perception/src/panda_description
+CMAKE_SOURCE_DIR = /home/pannaga/Documents/panda_path_planning_task/isaac_panda/src/panda_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pannaga/ros2_ws/isaac_moveit_perception/build/panda_description
+CMAKE_BINARY_DIR = /home/pannaga/Documents/panda_path_planning_task/isaac_panda/build/panda_description
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/pannaga/ros2_ws/isaac_moveit_perception/build/panda_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pannaga/ros2_ws/isaac_moveit_perception/src/panda_description /home/pannaga/ros2_ws/isaac_moveit_perception/src/panda_description /home/pannaga/ros2_ws/isaac_moveit_perception/build/panda_description /home/pannaga/ros2_ws/isaac_moveit_perception/build/panda_description /home/pannaga/ros2_ws/isaac_moveit_perception/build/panda_description/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pannaga/Documents/panda_path_planning_task/isaac_panda/build/panda_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pannaga/Documents/panda_path_planning_task/isaac_panda/src/panda_description /home/pannaga/Documents/panda_path_planning_task/isaac_panda/src/panda_description /home/pannaga/Documents/panda_path_planning_task/isaac_panda/build/panda_description /home/pannaga/Documents/panda_path_planning_task/isaac_panda/build/panda_description /home/pannaga/Documents/panda_path_planning_task/isaac_panda/build/panda_description/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

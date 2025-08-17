@@ -2,7 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-: ${AMENT_CURRENT_PREFIX:="/home/pannaga/ros2_ws/isaac_moveit_perception/install/perception_pipeline"}
+: ${AMENT_CURRENT_PREFIX:="/home/pannaga/Documents/panda_path_planning_task/isaac_panda/install/perception_pipeline"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \

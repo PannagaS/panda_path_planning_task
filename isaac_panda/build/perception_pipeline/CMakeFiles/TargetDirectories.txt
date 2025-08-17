@@ -1,0 +1,10 @@
+/home/pannaga/ros2_ws/isaac_moveit_perception/build/perception_pipeline/CMakeFiles/uninstall.dir
+/home/pannaga/ros2_ws/isaac_moveit_perception/build/perception_pipeline/CMakeFiles/perception_pipeline_uninstall.dir
+/home/pannaga/ros2_ws/isaac_moveit_perception/build/perception_pipeline/CMakeFiles/pick_place_with_grasp.dir
+/home/pannaga/ros2_ws/isaac_moveit_perception/build/perception_pipeline/CMakeFiles/test.dir
+/home/pannaga/ros2_ws/isaac_moveit_perception/build/perception_pipeline/CMakeFiles/edit_cache.dir
+/home/pannaga/ros2_ws/isaac_moveit_perception/build/perception_pipeline/CMakeFiles/rebuild_cache.dir
+/home/pannaga/ros2_ws/isaac_moveit_perception/build/perception_pipeline/CMakeFiles/list_install_components.dir
+/home/pannaga/ros2_ws/isaac_moveit_perception/build/perception_pipeline/CMakeFiles/install.dir
+/home/pannaga/ros2_ws/isaac_moveit_perception/build/perception_pipeline/CMakeFiles/install/local.dir
+/home/pannaga/ros2_ws/isaac_moveit_perception/build/perception_pipeline/CMakeFiles/install/strip.dir

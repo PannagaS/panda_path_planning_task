@@ -1,16 +1,10 @@
 # Obstacle-Aware Motion Planning for a Panda Arm 
 
 ## Objective
-This repository contains a ROS2 package for obstacle aware path planning for the Franka Emika Panda robot, using ROS2, Rviz2, and MoveIt2 for experiments.
+This repository contains a ROS2 package for obstacle aware path planning for the Franka Emika Panda robot, using ROS2, Rviz2, Isaac Sim (4.5) and MoveIt2 for experiments. 
 
 
-
-## Tasks:
-- Use a common robotic arm model (e.g., Panda or UR5e).
-- Set an initial and a target pose in RViz2.
-- Add a static obstacle (e.g., a cube) directly between the initial and target positions.
-- Use MoveIt2 to automatically plan a collision-free path.
-- Visualize the planned path and the collision object in RViz2.
+### Note: The primary tasks remain the same (as mentioned in the `main` branch). This branch integrates IsaacSim with the existing ROS2 + MoveIt2 + Rviz2 pipeline.  
 
 ## Project Structure 
 The repository structure is as show below. 

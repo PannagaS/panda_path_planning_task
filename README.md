@@ -120,36 +120,10 @@ The following visual demonstrates successful integration of IsaacSim with ROS2 a
     <img src="assets/Screencastfrom08-15-2025104716AM-ezgif.com-video-to-gif-converter.gif" alt="GIF"/>
 </p>
 
+<p align="center">
+    <img src="assets/Screencastfrom08-16-2025101124PM-ezgif.com-speed.gif" alt="GIF"/>
+</p>
 
 
-## Brief Description of Path Planner Used
-The simulation uses MoveIt 2’s **Open Motion Planning Library (OMPL)** based motion planning pipeline.
-By default, the Panda MoveIt 2 configuration (`moveit_resources_panda_moveit_config`) employs the **RRTConnect planner** from the OMPL (Open Motion Planning Library).
-
-RRTConnect is a bidirectional sampling-based planner:
-
-- One tree grows from the start pose, another from the goal pose.
-- The two trees expand toward each other until they connect, producing a valid path.
-
-This planner is particularly efficient for high-dimensional spaces like robotic arm joint configurations.
-In this setup, the planner searches for a path in joint space that avoids collisions while minimizing path length.
-
-## Collision Avoidance Mechanism
-The first step is to create the **planning scene**. The planning scene contains robot's model (from urdf) and known obstacles (static/dynamic) that we add to the environment. This planning scene is continuously updated with data streaming in from sensors (if attached in the planning scene). MoveIt uses this information to determine if a specific robot configuration is in collision with anything in the scene.
-
-Static obstacles (e.g., a cube) are added into the planning scene using `moveit_msgs/CollisionObject` messages.
-The cube’s pose and dimensions are specified relative to the robot’s planning frame.
 
 
-Once MoveIt has the planning scene, it then hands off the problem to a motion planner. In our case, that would be RRT Connect from OMPL. This is a sampling based approach where on a high level - 
-- The planner randomly picks a robot configuration
-- It then checks if this sampled configuration is in collision with any objects in the planning scene or if the robot is in collision with itself
-- If the state is **collision-free**, it's added to a `roadmap` of possible paths. The planner tries to connect this **new and valid state** to nearby states that are arleady in the roadmap. The paths between these states are also checked for collisions
-- This process continues until a connection is made between robot's starting config and its goal config. The resulting series of connected states forms a collision-free path
-- Note that RRTConnect can be jerky and sometimes may lead to sub-optimal path, so MoveIt uses a post-processing step to *smooth and simplify* the trajectory, making it more fluid for the real robot to execute 
-
-
-For collision checking, MoveIt uses `FCL (Flexible Collision Library)` for fast geometric collision checks. 
-During the planning phase, the motion planner continuously calls a collision checker to determine if a new robot conifguration or a path segment is **valid**. This process is very fast, and allows th eplanner to quickly discard any invalid options and focuses on finding a safe route. The collision checker checks collision between robot and the environment, and also self-collisions with the robot itself.
-
-This way, MoveIt finally outputs a time-parameteried trajectory that the robot can now follow **safely and efficiently** to reach its goal, that is **guaranteed** to be **collision-free**.

@@ -58,12 +58,13 @@ Open IsaacSim and import `moveit_perception_panda.usd`. This usd contains Action
 
 
 ## Result (Isaac Sim + MoveIt + ROS 2)
-The following visual shows a Panda arm planning a path while there are obstacles around it in RViz.
+<!-- The following visual shows a Panda arm planning a path while there are obstacles around it in RViz. -->
 
 
-<p align="center">
+
+<!-- <p align="center">
     <img src="assets/Screencastfrom08-11-2025100428PM-ezgif.com-video-to-gif-converter.gif" alt="GIF"/>
-</p>
+</p> -->
 
 <!-- 
 #### You can also watch the video by by clicking here - [demo 1](https://youtu.be/Kpos1U_8N2A), [demo 2](https://youtu.be/51J_CLuVIU4) -->
@@ -81,6 +82,10 @@ The following visual demonstrates successful integration of IsaacSim with ROS2 a
     <img src="assets/Screencastfrom08-16-2025101124PM-ezgif.com-speed.gif" alt="GIF"/>
 </p>
 
+
+<p align="center">
+    <img src="assets/compressed-ezgif.com-optimize (2).gif" alt="GIF"/>
+</p>
 
 
 
